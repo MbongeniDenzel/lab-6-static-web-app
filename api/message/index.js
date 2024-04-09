@@ -7,7 +7,7 @@ app.use(cors());
 
 
 
-app.use(express.json());
+
 
 const cars = require('./cars.json');
 
