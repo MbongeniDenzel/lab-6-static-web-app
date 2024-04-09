@@ -1,7 +1,20 @@
-# Vanilla JavaScript App
+lab-6-static-web-app
+===
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
+``` bash
+# dev 
+npm run dev
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+# run in production with minification at localhost:3000
+npm run product
 
-This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
+# show logs
+npm run logs
+
+# show process list
+npm run list
+
+# stop
+npm run stop
+
+```
