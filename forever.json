@@ -1,0 +1,10 @@
+{
+    "uid": "lab-6-static-web-app",
+    "append": true,
+    "script": "server/wrapper.js",
+    "sourceDir": "./",
+    "workingDir": "./",
+    "logFile": "./logs/forever.log",
+    "outFile": "./logs/out.log",
+    "errFile": "./logs/err.log"
+}
